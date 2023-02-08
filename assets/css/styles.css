@@ -8,3 +8,44 @@ padding: 0;
 body{
     font-family: sans-serif;
 }
+
+#nav-bar{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #fe5e5e,#9570f5);
+    padding: 0;  /*!important! */
+}
+
+.navbar-brand img{
+    height: 90px;
+    padding-left: 10px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: white;
+
+}
+.fa-bars{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.navbar-toggler{
+    outline: white;
+}
+
