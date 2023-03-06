@@ -5,6 +5,7 @@ padding: 0;
 
 }
 
+
 body{
     font-family: sans-serif;
 }
@@ -77,59 +78,8 @@ body{
 } */
 
 
-/*-------services-------*/
-#services{
-    padding: 80px 0;
-}
 
-.service-img{
-    width: 200px;
-    margin-top: 20px;
-    /* margin-left: 30px; */
-}
-
-.services{
-    padding: 20px;
-}
-
-.services h4{
-    padding: 5px;
-    margin-top: 25px;
-    text-transform: uppercase;
-}
-
-.title::before{
-    content: '';
-    background: #9570f5;
-    height: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(63px);
-}
-
-.title::after{
-    content: '';
-    background: #9570f5;
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(8px);
-}
-
-#services .btn-primary{
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #fe5e5e,#9570f5);
-}
-
-/*-------services-------*/
+/*-------Home-------*/
 .leftside, .rightside{
     height: 50vh;
     width: 100%;
@@ -192,25 +142,17 @@ body{
     margin-bottom: 50px;
 }
 
-.gallery img {
-    height: 80px;
-    width: 80px;
-    border-radius:50%;
-    margin: 0 10px;
-}
 
 .user-details{
     display: inline-block;
     font-size: 12px;
-
-
 }
 
 /*-----------SOCIAL----------*/
 
 #social-media{
     background: #9570f5;
-    padding: 100px 0;
+    padding: 40px 0;
 
 }
 
@@ -241,43 +183,13 @@ body{
 
 /*-----------Footer----------*/
 
-#footer{
-    background-image: linear-gradient(to right, #fe5e5e,#9570f5);
-    color: white;
-
-}
-
-/* .footer img{
-    width: 100%;
-} */
-
-.footer-box{
-    padding: 20px;
-}
-
-.footer-box img{
-    width: 120px;
-    margin-bottom: 20px;
-}
-
-.footer-box i{
-    margin-right: 8px;
-    font-size: 25px;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    padding-top: 7px;
-    border-radius: 2px;
-    background-image: linear-gradient(to right, #fe5e5e,#9570f5);
-
-}
-
 .footer-box .form-control{
     box-shadow: none;
     border: none;
     border-radius: 0;
     margin-top: 25px;
     max-width: 250px;
+    display: inline;
 
 }
 
@@ -285,8 +197,10 @@ body{
     box-shadow: none;
     border: none;
     border-radius: 0;
-    margin-top: 30px;
-    background-image: linear-gradient(to right, #fe5e5e,#9570f5);
+    background-image: linear-gradient(to right, #fe5e5e,#000000);
+    margin-bottom: 3px;
+    padding: 7px;
+    
 }
 
 hr{
