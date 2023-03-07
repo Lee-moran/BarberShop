@@ -19,6 +19,7 @@ body{
 
 .navbar{
     background-image: linear-gradient(to right, #090909,#9570f5);
+    /* background-color: #9570f5; */
     padding: 0;  /*!important! */
 }
 /* mint,#41c5b5 */
